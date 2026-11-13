@@ -1,4 +1,4 @@
-# MedRAG-AI 🩺
+# MedRAG-AI 
 ### AI-Powered Medical Question Answering System Using Retrieval-Augmented Generation (RAG)
 
 MedRAG-AI is an AI-powered medical question-answering application that uses **Retrieval-Augmented Generation (RAG)** to provide context-aware answers from medical reference documents.
@@ -9,7 +9,7 @@ Unlike a basic chatbot that relies only on an LLM's pre-trained knowledge, MedRA
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Retrieval-Augmented Generation (RAG):** Retrieves relevant medical information before generating answers.
 - **Semantic Search:** Uses Hugging Face MiniLM embeddings to understand the meaning of user queries.
@@ -19,7 +19,7 @@ Unlike a basic chatbot that relies only on an LLM's pre-trained knowledge, MedRA
 - **Context-Grounded Responses:** Instructs the LLM to answer using retrieved context and acknowledge when information is unavailable.
 - **Interactive Chat Interface:** Provides a web-based interface for asking medical questions.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Category | Technologies |
 |---|---|
@@ -32,7 +32,7 @@ Unlike a basic chatbot that relies only on an LLM's pre-trained knowledge, MedRA
 | Frontend | HTML, CSS, JavaScript |
 | Development Tools | VS Code, Jupyter Notebook |
 
-## 🏗️ System Architecture
+##  System Architecture
 
 MedRAG-AI follows a Retrieval-Augmented Generation architecture consisting of two major processes.
 
@@ -72,7 +72,7 @@ flowchart TD
     M --> N[Chat Interface]
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 MedRAG-AI/
@@ -98,7 +98,7 @@ MedRAG-AI/
 └── LICENSE                 # Apache 2.0 License
 ```
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 Follow these steps to run MedRAG-AI locally.
 
@@ -174,7 +174,7 @@ Open your browser and navigate to:
 http://127.0.0.1:5000/
 ```
 
-## 🔒 Safety and Reliability
+##  Safety and Reliability
 
 - Uses retrieved medical reference material to ground generated responses.
 - Uses a low-temperature generation configuration to encourage consistent responses.
@@ -183,7 +183,7 @@ http://127.0.0.1:5000/
 
 **Medical Disclaimer:** MedRAG-AI is an educational and informational project. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional for medical concerns.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Implement conversational memory to maintain chat context.
 - Add source citations and document page references.
@@ -192,7 +192,7 @@ http://127.0.0.1:5000/
 - Implement RAG evaluation using retrieval and answer-quality metrics.
 - Add automated testing and improved error handling.
 
-## 👨‍💻 Author
+##  Author
 
 **Kushal Raj Mondal**
 
@@ -201,7 +201,7 @@ National Institute of Technology, Patna
 
 GitHub: [@kushalrajmondal](https://github.com/kushalrajmondal)
 
-## 📄 License
+##  License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
